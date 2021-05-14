@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Open+Sans&family=Sunflower:wght@300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin : 0px;
+  padding :0px;
+}
+body{
+  height : 100%;
+  font-family: "Gugi", cursive;
+}
+
+.container{
+  display : inline-block;
+  position : relative;
+  clear : right;
+  height: 880px;
+  line-height: 880px;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background-color : rgb(230, 255, 249);
+  
+}
+
+.container::before{
+  content:"";
+  background-image: url("./images/yoga-153436_1280.png");
+  background-size: cover;
+  background-position: center center;
+  position : absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.3;
+}
+#mainTheme{
+  display : inline-block;
+  line-height :normal;
+  vertical-align: middle;
+  position :relative;
+}
+#question{
+  display : inline-block;
+  vertical-align: middle;
+  margin-bottom : 20px;
+  text-align : center;
+  font-size : 50px; 
+}
+#putExercise{
+  margin-right : 5px; 
+  display : inline-block;
+  width : 39%;
+  height : 60px;
+  vertical-align: middle;
+  font-size : 15px;
+  border-radius: 15px;
+  border : none;
+  outline: none;
+}
+#putTime{
+  margin-right : 5px; 
+  display : inline-block;
+  width : 39%;
+  height : 60px;
+  vertical-align: middle;
+  font-size : 15px;
+  border-radius: 15px;
+  border : none;
+  outline: none;
+}
+#buttonSpace{
+  margin-top : 20px;
+  width :100%;
+  text-align: center;
+}
+#callorieButton{
+  display :inline-block;
+  color : #ffffff;
+  padding : 8px 8px;
+  background-color  : rgb(131, 163, 243);
+  border : 3px solid rgb(221, 231, 255);
+  border-radius: 10px;
+  margin : 20px 0px;
+  height : 40px;
+  line-height: 18px;
+  font-size : 23px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 2px 2px 1px 0px rgb(143, 143, 143);
+} 
+
+#howMuchCallorie{
+  display: inline-block;
+  vertical-align: middle;
+}
+#mainTheme input{
+  text-align: center;
+}
+.center{
+  text-align: center;
+}

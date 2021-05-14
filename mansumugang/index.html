@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="main.css"/>
+      <link rel="stylesheet" href="navbar_Main.css"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+      <title>만수무강</title>
+    </head>
+    <body>
+      <div id="navBar">
+        <a id="navBarName" style="font-family: 'Gaegu', cursive;" href="#">만수무강</a>
+        <div id="navBarContents">
+          <a class="navBarCon" id="exercise" href = "exercise.html"><span>ExercisE</span></a>
+          <a class="navBarCon" id= "food" href = "food.html"><span>FooD</span></a>
+          <a class="navBarCon" id="mental" href = "#"><span>MentaL</span></a>
+        </div>
+      </div>
+      <div class = "container">
+        <div id ="mainTheme" class="center">
+          <p id="question" class = "center">몸무게와 키를 적어주세요</p><br>
+          <input id="putHeight" type="text" placeholder="키(cm)" onkeyup="printHeight()"/>
+          <input id="putWeight" type="text" placeholder="몸무게(kg)" onkeyup="printWeight()"/><br>
+          <p>당신의 키는<span id="heightResult"> </span>cm 입니다.</p>
+          <p>당신의 몸무게는<span id="weightResult"> </span>kg 입니다.</p>
+          <div id="buttonSpace">
+            <button id="bmiButton" onclick = "printBmi()"><div id="whatsYourBmi" style="font-family: 'Cute Font', cursive;">당신의 BMI는?</div></button>
+          </div>
+        </div>
+      </div>
+      
+    </body>
+    <script src="bmi.js"></script>
+    <script src="screenTransition.js"></script>
+  </html>
+    

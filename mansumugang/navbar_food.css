@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Open+Sans&family=Sunflower:wght@300&display=swap');
+
+#navBar{
+  height : 60px;
+  line-height : 60px;
+  width: 100%;
+  background-color : #ffffff;
+  background-image : url("./images/platter-2009590_1920.jpg");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0px 1px 10px -6px gray;
+}
+
+#navBarName{
+  padding-left : 20px;
+  font-size : 32px;
+  color : white;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#navBarContents{
+  display : flex;
+  float : right;
+  font-weight : 1000;
+  font-size : 20px;
+}
+
+.navBarCon{
+  color :  white;
+  text-shadow: 1px 1px 2px black;
+  margin : 0px 10px;
+  text-decoration: none;
+  font-family: 'Sunflower', sans-serif;
+  padding : 0px 14px;
+  position :relative;
+}
+
+.navBarCon>span{
+  display : inline-block;
+  text-align: center;
+}
+.navBarCon::before{
+  content : "";
+  position : absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background: linear-gradient( to right, rgb(255, 255, 255), rgb(255, 255, 255)50%,rgb(255, 255, 255) 100%);
+  opacity : 0;
+}
+.navBarCon:hover::before{
+  transition: opacity 0.2s;
+  opacity:0.5;
+}
+.navBarCon:hover{
+  transition :font-size 0.2s;
+  color :white;
+  font-size : 21px;
+  font-weight: bold;
+}
+.navBarCon>span{
+  position :relative;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Open+Sans&family=Sunflower:wght@300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin : 0px;
+  padding :0px;
+}
+body{
+  height : 100%;
+  font-family: "Gugi", cursive;
+}
+
+.container{
+  display : inline-block;
+  position : relative;
+  clear : right;
+  height: 880px;
+  line-height: 880px;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background-color : rgb(255, 250, 228);
+}
+
+.container::before{
+  content:"";
+  background-image: url("./images/group-2351896_1280.png");
+  background-size: cover;
+  background-position: center center;
+  position : absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.3;
+}
+#mainTheme{
+  display : inline-block;
+  line-height :normal;
+  vertical-align: middle;
+  position : relative;
+}
+
+#mainTheme > input{
+  text-align: center;
+}
+
+#question{
+  display : inline-block;
+  vertical-align: middle;
+  margin-bottom : 20px;
+  text-align : center;
+  font-size : 50px; 
+}
+#putHeight{
+  margin-right : 5px; 
+  margin-bottom: 10px;
+  display : inline-block;
+  width : 39%;
+  height : 60px;
+  vertical-align: middle;
+  font-size : 20px;
+  outline: none;
+  border : none;
+  border-radius: 15px;
+}
+
+#putWeight{
+  margin-left : 5px; 
+  margin-bottom: 10px;
+  display : inline-block;
+  width : 39%;
+  height : 60px;
+  vertical-align: middle;
+  font-size : 20px;
+  outline: none;
+  border : none;
+  border-radius: 15px;
+}
+#buttonSpace{
+  margin-top : 20px;
+  width :100%;
+  text-align: center;
+}
+#bmiButton{
+  color : white;
+  padding : 5px 5px;
+  background-color  : rgb(255, 177, 177);
+  border : 3px solid rgb(255, 146, 146);
+  border-radius: 10px;
+  height : 40px;
+  line-height : 18px;
+  font-size : 23px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 2px 2px 1px 0px rgb(143, 143, 143);
+  position: relative;
+}
+#bmiButton:active{
+  box-shadow: -1px -1px 1px 0px rgb(143, 143, 143);
+
+}
+#whatsYourBmi{
+  display : inline-block;
+  vertical-align: middle;
+
+}
+.center{
+  text-align: center;
+}

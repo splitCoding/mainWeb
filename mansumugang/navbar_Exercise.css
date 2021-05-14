@@ -1,0 +1,61 @@
+#navBar{
+  height : 60px;
+  line-height : 60px;
+  width: 100%;
+  background-color : #d9f0ff;
+  box-shadow: 0px 1px 10px -6px rgb(21, 21, 106);
+}
+
+#navBarName{
+  padding-left : 20px;
+  font-size : 32px;
+  color : rgb(49, 71, 126);
+  vertical-align: middle;
+  text-decoration: none;
+ 
+}
+
+#navBarContents{
+  float : right;
+  font-weight : 700;
+  font-size : 20px;
+}
+
+.navBarCon{
+  color :  rgb(49, 71, 126);
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  margin : 0px 10px;
+  text-decoration: none;
+  font-family: 'Sunflower', sans-serif;
+  display : inline-block;
+  padding : 0px 14px;
+  position :relative;
+}
+
+.navBarCon>span{
+  display : inline-block;
+  text-align: center;
+}
+.navBarCon::before{
+  content : "";
+  position : absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background: linear-gradient( to right, #d9f0ff, rgb(255, 255, 255)50%,#d9f0ff 100%);
+  opacity : 0;
+}
+.navBarCon:hover::before{
+  transition: opacity 0.5s;
+  opacity:0.5;
+}
+.navBarCon:hover{
+  transition :font-size 0.2s;
+  color :rgb(49, 71, 126);
+  font-size : 21px;
+  font-weight: bold;
+}
+.navBarCon>span{
+  position :relative;
+}

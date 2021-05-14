@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Open+Sans&family=Sunflower:wght@300&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin : 0px;
+  padding :0px;
+  outline: none;
+}
+body{
+  height : 100%;
+  font-family: "Gugi", cursive;
+}
+
+.container{
+  display : inline-block;
+  position : relative;
+  clear : right;
+  height: 880px;
+  line-height: 880px;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background-color : rgb(255, 250, 228);
+}
+.container::before{
+  content:"";
+  background-image: url("./images/group-2351896_1280.png");
+  background-size: cover;
+  background-position: center center;
+  position : absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.1;
+}
+
+#slide{
+  margin : 100px auto 0px auto;
+  width : 100%;
+  height : 600px;
+  position : relative;
+  line-height: normal;
+  overflow : hidden;
+}
+#slideContent{
+  display : flex;
+  width : 400%;
+  height : 100%;
+  list-style: none;
+}
+#slideContent li{
+  display : block;
+  width: 25%;
+  height :600px;
+}
+#slideContent li:nth-child(1){
+  background-image : url("./images/platter-2009590_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+#slideContent li:nth-child(2){
+  background-image : url("./images/sushi-621415_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+/* #slide:hover #slideContent li:nth-child(1){
+  transition : margin-left 2s;
+  margin-left : -25%;
+
+} */
+#slideRadio{
+  position : relative;
+}
+#slider2:checked + body{
+  background-color: red;
+}
+.center{
+  text-align: center;
+}
