@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="index.css"></link>
+    <title>TIPS</title>
+  </head>
+  <body>
+    <div class = 'center'><h2 class = 'title'>TIPS</h2>
+      <nav class = 'mainMenu center bottomMargin'>
+        <a class ='menu' href="index.html">HOME</a>
+        <a class ='menu' href="htmlpractice.html">HTML</a>
+        <a class ='menu' href="tips.html">TIPS</a>
+        <a class ='menu' href="../javascriptweb/index.html">JAVASCPRIPT</a>
+      </nav>
+    </div>
+    <div class ="tip">
+      <p><h2 class = 'tipsTheme'>HTML</h2>
+        <ul>
+        </ul>
+      </p>
+
+      <p><h2 class = 'tipsTheme'>CSS</h2>
+        <ul class = 'cssTips'>
+          <li>
+            margin과 padding의 값으로는
+            <ol>
+              <li>top, right, bottom, left</li>
+              <li>topAndBottom, rightAndLeft</li>
+              <li>entire</li>
+              <li>auto의 경우 중앙정렬과 비슷하게 됨 남은 여백의 값을 똑같이 나눈값만큼 지정됨</li>
+            </ol>
+          </li>
+          <li>box모델에서 min-width, min-height 은 최소크기로 이 이상으로는 작아지지 않는다</li>
+          <li>box모델에서 max-width, max-height 은 최대크기로 이 이상으로는 커지지 않는다</li>
+          <li>min과 max범위에서 벗어날경우 overflow 속성으로 처리 가능</li>
+          <li>overflow속성
+            <ol>
+              <li>hidden = 숨겨버림</li>
+              <li>visible = 그냥 default값</li>
+              <li>scroll = 스크롤이 무조건 생김</li>
+              <li>auto = 스크롤이 필요할 경우 생성</li>
+            </ol>
+          </li>
+          <li>border의 작성(style color width)
+            <ul>
+              <li>solid = 직선</li>
+              <li>dotted = 점선</li>
+              <li>dashed = 사선</li>
+              <li>border-radius = 테두리 둥글게</li>
+              <li>background-color = 배경색 (transparent = 투명 / default)</li>
+              <li>box-shadow = 그림자 ( 가로위치, 세로위치, 흐림(blur), 그림자크기(spread), 색깔)</li>
+              <li>box-sizing = border와 padding이 사이즈에 포함된다(모든 요소에 추가해주는 추세) (content-box가 default)</li>
+              <li>background-image : url(); 배경이미지</li>
+              <li>background-repeat 배경을 채우기위해 반복되는지(no-repeat 반복안함) </li>
+              <li>background-size : cover 배경을 채우면서도 비율을 유지</li>
+              <li>background-position : 꼭나와야하는곳이 되는 기준이 어딘지 ( right bottom, left top, center center)</li>
+            </ul>
+          </li>
+          <li>선택자
+            <ul>
+              <li>parent p = parent의 자식요소들중 p태그들</li>
+              <li>parent > p  = parent의 직속자식요소중 p</li>
+              <li>.class, .class2 = 두개의 클래스 복수 선택</li>
+              <li>.class.class2 = 두개의 클래스를 다 가지고 있는 요소 </li>
+              <li>.parent p:nth-child(3) = parent의 자식요소들중 p중에 3번째</li>
+              <li>.parent p:first-child = parent의 자식요소들중 p중에 첫번째</li>
+              <li>.parent p:last-child = parent의 자식요소들중 p중에 마지막</li>
+              <li>.parent p:not(:first-child) = parent의 자식요소들 p중에 첫번째를 제외한 나머지</li>
+              <li>.parent p:not(:last-child) = parent의 자식요소들 p중에 마지막을 제외한 나머지</li>
+              <li>.parent:hover = parent에 마우스가 올라갔을 때 </li>
+              <li>선택자는 자식요소에게 상속이 되지만 모든 요소가 상속되지는 않는다</li>
+              <li>억지로 상속을 시키고 싶을때는 값에 inherit을 넣으면 된다</li>
+              <li><a href ="https://specificity.keegan.st/">css 선택자 명시도 계산기</a></li>
+              <li>rem = html태그의 font-size에만 영향을 받는다 2rem은 html 태그의 font-size의 2배 크기입니다.</li>
+            </ul>
+          </li>
+          <li>img는 대체요소라고 불리는 inline 요소</li>
+
+
+        </ul>
+      </p>
+
+      <p><h2 class = 'JAVASCRIPT'>HTML</h2>
+        <ul>
+        </ul>
+      </p>
+    </div>
+  
+  </body>
+</html>

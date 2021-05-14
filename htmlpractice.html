@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset = "utf-8">
+      <link rel="stylesheet" href="index.css"></link>
+      <title>practice web</title>
+    </head>
+    <body>
+      <div class = 'center'><h1 class = 'title'>HTMLTags</h1></div>
+     
+      <nav class = 'mainMenu center bottomMargin'>
+        <a href="index.html">HOME</a>
+        <a href="htmlpractice.html">HTML</a>
+        <a href="tips.html">TIPS</a>
+        <a href="../javascriptweb/index.html">JAVASCPRIPT</a>
+      </nav>
+      
+      <header id = 'header'>header 태그 페이지의 제목 지정</header>
+      <span id = 'body'></span>body - 문서의 전체 영역</span>
+      <nav class = "nav">nav태그 메인메뉴들을 입력하는 태그 내부나 외부 사이트로의 이동
+        <ul>
+          <a href=""><li> 메인 메뉴 1</li></a>
+          <a href=""><li> 메인 메뉴 2</li></a>
+        </ul>
+      </nav>
+      <div id = 'div'>
+        div - blcok형태의 영역
+        <h1 id = 'h'>H1 자동줄바꿈</h1>
+        <h2 id = 'h'>H2 자동줄바꿈</h2>
+        <h3 id = 'h'>H3 자동줄바꿈</h3>
+        <h4 id = 'h'>H4 자동줄바꿈</h4>
+        <h5 id = 'h'>H5 자동줄바꿈</h5>
+        <h6 id = 'h'>H6 자동줄바꿈</h6>
+        <p id = 'p'>parameter - block형태의 영역 자동줄바꿈</p>
+        <span id = 'span'>span1 - inline형태의 영역</span>
+        <span id = 'span'>span2 - inline형태의 영역</span>
+        <span id = 'span'>span3 - inline형태의 영역</span><br><br>
+        <a id = 'a' href = "https://pridiot.tistory.com/6" target = '_blank'>anchor - 웹페이지나 외부 사이트 연결 target = _blank</a><br><br>
+        <a id = 'a' href = "https://pridiot.tistory.com/6" target = '_self'>anchor - 웹페이지나 외부 사이트 연결 target = _self</a><br><br>
+        <a id = 'a' href = "https://pridiot.tistory.com/6" target = '_parent'>anchor - 웹페이지나 외부 사이트 연결 target = _parent</a><br><br>
+        <a id = 'a' href = "https://pridiot.tistory.com/6" target = '_top' title ='title속성'>anchor - 웹페이지나 외부 사이트 연결 target = _top 마우스올려보세요</a><br><br>
+        <a id = 'a' href = '#body'>href값에 id 입력시에는 그곳으로 이동</a><br><br>
+        <img src="imgTag.png" weight = '300px' height="300px">
+        <p>img태그는 inline형태</p>
+        <ul id = 'ul'>
+          <li id = 'li'>ul(unorderedList) 태그안에 li(list)태그는 순서가 없는 리스트 태그</li>
+          <li id = 'li' style = "list-style: none;">ul(unorderedList) list-style : none 했을 때 앞에 점이 없다</li>
+        </ul>
+        <ol id = 'ol'>
+          <li id = 'li'>ol(orderedList) 태그안에 li(list)태그는 순서가 있는 리스트 태그</li>
+          <li id = 'li'>ol에 type 속성으로 1은 숫자, a는 영어소문자, A는 영어대문자, i는 로마숫자 소문자, I는 로마숫자 대문자</li>
+          <li id = 'li'>ol에 reverse 속성으로 역순으로 진행 가능</li>
+          <li id = 'li'>ol에 start 속성으로 입력한 값부터 처음 시작 가능</li>
+        </ol>
+        <input type="text" placeholder="text"><br>
+        <input type="search" placeholder="search"><br>
+        <input type="tel" placeholder="tel(telephone)"><br>
+        <input type="url" placeholder="url"><br>
+        <input type="email" placeholder="email"><br>
+        <input type="password" placeholder="password"><br>
+        <input type="number" placeholder="number"><br>
+        <input type="range" placeholder="range">range<br>
+        <input type="color" placeholder="color">color 색상코드는 색상rgb값을 16진수로 나타낸것 hexadecimal<br>
+        <input type="checkbox" placeholder="checkbox">checkbox<br>
+        <input type="radio" placeholder="radio">radio<br>
+        <input type="datetime" placeholder="datetime">datetime<br>
+        <input type="datetime-local" placeholder="datetime-local">datetime-local<br>
+        <input type="date" placeholder="date">date<br>
+        <input type="month" placeholder="month">month<br>
+        <input type="week" placeholder="week">week<br>
+        <input type="time" placeholder="time">time<br>
+        <input type="button" placeholder="button">button<br>
+        <input type="file" placeholder="file">file<br>
+        <input type="submit" placeholder="submit">submit<br>
+        <input type="image" placeholder="image">image<br>
+        <input type="reset" placeholder="reset">reset<br>
+        <img src="inputProperty.png" weight = '300px' height="300px">
+        <p>
+          <strong>strong태그의 경우 중요하다고 알리는 태그</strong><br>
+          <b>b(bold)태그의 경우는 그냥 두껍게 표시하기 위함</b><br>
+          <em>em(emphasized)태그의 경우 중요하다고 알리기위한 기울임</em><br>
+          <i>i태그(italic)의 경우는 그냥 기울임</i><br>
+          px( pixel ), pt( point (1.33pixel) ), %(부모요소의 글씨크기랑 비교), em( 1em = 100% )
+
+        </p>
+      </div>
+      <footer id = 'footer'>footer 태그 페이지의 제일아래에 제작정보나 저작권 정보</footer>
+      <address>address태그 주소를 입력하는 곳</address><br>
+      <aside>aside태그의 경우 양옆의 광고나 사이드바를 표시할때 쓰임</aside>
+      <iframe src="" frameborder="2px" width='1200px' height='1000px'></iframe>
+
+      
+    </body>
+  </html>

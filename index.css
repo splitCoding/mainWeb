@@ -1,0 +1,202 @@
+body {
+  background-color: #e1ffb1;
+  margin : 20px;
+  padding : 20px;
+  vertical-align: middle;
+  line-height : 800px;
+  overflow : center center;
+}
+
+.container{
+  display : inline-block;
+  vertical-align: middle;
+  margin : auto auto;
+  width : 99%;
+}
+
+body *{
+  line-height : normal
+}
+.bold{
+  font-size: 50px;
+  font-weight: 500;
+}
+*{
+  box-sizing: border-box;
+}
+.clockTitle{
+  font-family:"monaco", monospace;
+  font-size: 18px;
+}
+.title{
+  font-size: 40px;
+  color : #3d5c0c;
+  display: inline-block;
+  text-align: center;
+  margin : 0px 0px 50px 0px;
+  padding : 10px 11px 10px 11px;
+  border : solid 4px #3d5c0c;
+}
+.webSiteMenu .smallMenu{
+  font-size: 15px;
+}
+.webTitle {
+  font-size: 30px;
+  color : rgb(116, 116, 116);
+  display: inline-block;
+  text-align: center;
+  margin : 10px 0px 10px 0px;
+  padding : 10px 10px 10px 10px;
+  text-shadow: 2px #3d5c0c;
+}
+.webTitle2 {
+  font-size: 22px;
+  color : rgb(116, 116, 116);
+  display: inline-block;
+  text-align: center;
+  margin : 10px 0px 10px 0px;
+  padding : 10px 10px 10px 10px;
+  text-shadow: 2px #3d5c0c;
+}
+.searchTitle{
+  text-shadow: 0px 0px 0.5em #2b4306;
+  font-size: 50px;
+  color : rgb(255, 255, 255);
+  display: inline-block;
+  text-align: center;
+  margin : 10px 0px 0px 0px;
+  padding : 10px 10px 10px 10px;
+}
+input::placeholder{
+  font-size : 15px;
+}
+.topMargin{
+  margin-top: 50px;
+}
+.menuImg{
+  width : 70px;
+  height : 70px;
+}
+.mainMenu a {
+  font-size: 18px;
+  color : rgb(67, 67, 67);
+  margin : 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.webSiteMenu a {
+  font-size: 18px;
+  color : rgb(55, 55, 55);
+  margin : 0px 30px 0px 30px;
+  text-decoration: none;
+}
+.now { 
+  font-weight : 500;
+}
+.center{
+  text-align: center;
+}
+.bottomMargin{
+  margin-bottom: 50px;
+}
+header{
+  color : white;
+  background-color: rgb(53, 37, 37);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+footer{
+  color : white;
+  background-color: rgb(53, 37, 37);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#nav{
+  font-size: 20px;
+  color : white;
+  background-color: rgb(94, 94, 94);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#body{
+  font-size: 25px;
+}
+#p{
+  color : white;
+  background-color: gray;
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#div{
+  font-size: 20px;
+  color : white;
+  background-color: black;
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#span{
+  color : white;
+  background-color: brown;
+  border : 2px solid white;
+  padding : 10px;
+}
+#h{
+  color : white;
+  background-color: skyblue;
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#a{
+  color : white;
+  background-color: rgb(121, 101, 67);
+}
+#ol{
+  color : white;
+  background-color: rgb(42, 67, 110);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#ul{
+  color : white;
+  background-color: rgb(15, 75, 59);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+#li{
+  color : white;
+  background-color: rgb(49, 216, 172);
+  border : 2px solid white;
+  margin : 20px;
+  padding : 20px;
+}
+input{
+  color : rgb(61, 26, 26);
+  background-color: rgb(213, 213, 213);
+  border : 2px solid white;
+  margin : 10px;
+  padding : 10px;
+}
+
+.searchInput{
+  width : 52%;
+  height: 50px;
+  font-size: 18px;
+  color : black;
+  background-color: white;
+  border : 3px solid rgb(147, 147, 147);
+  margin : 10px 0px 0px 0px;
+  padding : 10px;
+}
+
+.js-clock{
+  margin : 0px 0px 60px 0px;
+}
+
